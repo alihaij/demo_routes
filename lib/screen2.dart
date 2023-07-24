@@ -5,7 +5,7 @@ class Screen2 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.blue,
+        backgroundColor: const Color.fromARGB(255, 5, 50, 86),
         title: Text('Screen 2'),
       ),
       body: Center(
